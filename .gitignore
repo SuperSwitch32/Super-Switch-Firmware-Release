@@ -1,0 +1,62 @@
+# ============================
+# Operating System Junk
+# ============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================
+# Editor / IDE Files
+# ============================
+
+# VS Code
+.vscode/
+
+# Swap / temp files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.orig
+
+# ============================
+# Arduino / ESP32 Build Output
+# ============================
+
+# Arduino CLI / IDE build folders
+build/
+out/
+
+# ESP32 Arduino core temp folders
+esp32.*/
+.arduinoIDE/
+
+# Compiled binaries (temporary builds only)
+*.elf
+*.map
+
+# Bootloader / partition temp outputs
+bootloader.bin
+partitions.bin
+merged.bin
+
+# ============================
+# Logs
+# ============================
+
+*.log
+
+# ============================
+# Keep OTA Releases
+# ============================
+
+# Allow firmware release binaries
+!firmware/releases/*.bin
