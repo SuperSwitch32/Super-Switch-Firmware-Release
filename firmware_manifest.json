@@ -1,5 +1,5 @@
 {
   "latestVersion": "25.0",
-  "downloadURL": "OTA Fireware Release/Super_Switch.ino.bin",
+  "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/blob/main/OTA%20Fireware%20Release/Super_Switch.ino.bin",
   "releaseNotes": "- OTA New Firmware Pull."
 }
