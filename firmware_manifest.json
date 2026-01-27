@@ -1,5 +1,5 @@
 {
-  "latestVersion": "25.2",
+  "latestVersion": "25.3",
   "downloadURL": "https://raw.githubusercontent.com/SuperSwitch32/Super-Switch-Firmware-Release/main/OTA%20Fireware%20Release/Super_Switch.ino.bin",
-  "releaseNotes": "OTA New Firmware Pull."
+  "releaseNotes": "OTA firmware installation updates and support for Ben's Game Hub"
 }
