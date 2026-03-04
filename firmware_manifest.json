@@ -1,5 +1,5 @@
 {
   "latestVersion": "25.4",
-  "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/blob/26d5ec6ec3b34d8d4cffd51133e19dbcc808b546/OTA%20Fireware%20Release/SuperSwitch_v25.4.ino.bin",
+  "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Fireware%20Release/SuperSwitch_v25.4.ino.bin",
   "releaseNotes": "Minor bug fixes."
 }
