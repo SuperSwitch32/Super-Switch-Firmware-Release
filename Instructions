@@ -1,0 +1,8 @@
+1. Export Compiled Binary in Arduino IDE
+2. Rename File SuperSwitch_vXX.X.ino.bin
+3. Replace existing .bin in the OTA Fireware Release folder on Main
+4. Inside the new .bin file right click "Raw" and copy link.
+5. Open Firmware_manifest.json
+6. Update the version number.
+7. Paste the Raw URL replacing the old URL
+8. Write a firmware description that will display in the app.
