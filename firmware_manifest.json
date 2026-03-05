@@ -1,5 +1,5 @@
 {
   "latestVersion": "25.5",
   "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Fireware%20Release/SuperSwitch_v25.4.ino.bin",
-  "releaseNotes": "Adds support for Accessible Mode Selection (AMS) to allow users to select modes using only the Super Switch. This update is required for this feature to work properly"
+  "releaseNotes": "Adds support for Accessible Mode Selection (AMS) to allow users to select modes using only the Super Switch. This update is required for this feature to work properly."
 }
