@@ -1,5 +1,17 @@
 {
   "latestVersion": "25.9",
   "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitch_v25.9.ino.bin",
-  "releaseNotes": "Adds Support for Super Switch DJ (Dual Jack)."
+  "releaseNotes": "Adds Support for Super Switch DJ (Dual Jack).",
+  "variants": {
+    "original": {
+      "latestVersion": "25.9",
+      "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitch_v25.9.ino.bin",
+      "releaseNotes": "Adds Support for Super Switch DJ (Dual Jack)."
+    },
+    "DJ": {
+      "latestVersion": "0",
+      "downloadURL": "",
+      "releaseNotes": ""
+    }
+  }
 }

@@ -1,8 +1,37 @@
-1. Export Compiled Binary in Arduino IDE
-2. Rename File SuperSwitch_vXX.X.ino.bin
-3. Replace existing .bin in the OTA Firmware Release folder on Main
-4. Inside the new .bin file right click "Raw" and copy link.
-5. Open Firmware_manifest.json
-6. Update the version number.
-7. Paste the Raw URL replacing the old URL
-8. Write a firmware description that will display in the app.
+HOW A RELEASE WORKS
+Committing a manifest change on Main IS the rollout. The app fetches
+firmware_manifest.json from Main and compares versions numerically.
+
+The manifest has one entry per hardware type under "variants":
+  "original" = original Super Switch (25.x firmware, V2_PCB_Super_Switch)
+  "DJ"       = Super Switch DJ / Dual Jack (26.x firmware, Dual_Jack_PCB_Super_Switch)
+App build 4.8.0+ reads only the entry matching the connected switch.
+A "latestVersion" of "0" (or a missing entry) means "no OTA release yet"
+for that hardware — the app will report up to date.
+
+RELEASING (either switch type):
+1. Export Compiled Binary in Arduino IDE (from the right sketch!).
+2. Rename: SuperSwitch_vXX.X.ino.bin (original) or
+           SuperSwitchDJ_vXX.X.ino.bin (Dual Jack).
+3. Add the .bin to the "OTA Firmware Release" folder on Main.
+4. Right click the new file's "Raw" button and copy the link.
+5. In firmware_manifest.json, update ONLY that hardware's entry under
+   "variants": latestVersion, downloadURL (the Raw link), releaseNotes
+   (shown in the app).
+6. Test: USB-flash one unit, then OTA-test one unit, before committing
+   to Main.
+
+ORIGINAL SUPER SWITCH ONLY — also update the legacy top-level fields
+(latestVersion / downloadURL / releaseNotes) to match the "original"
+entry. Older app versions still read them.
+
+!! HARD RULES !!
+- The legacy top-level "latestVersion" must ALWAYS stay below 26
+  (below every Dual Jack version). Old app builds treat it as universal;
+  breaking this rule would offer original-switch firmware to Dual Jacks
+  on old apps. Firmware 25.10 / 26.5+ also refuse wrong-board updates
+  (ERR_WRONG_BOARD), but old DJ firmware in the field may not.
+- Version ranges are reserved: 25.x = original, 26.x = Dual Jack.
+  Never cross them.
+- Versions only go up. The app never offers a numerically lower version,
+  so a "downgrade" release would strand devices.
