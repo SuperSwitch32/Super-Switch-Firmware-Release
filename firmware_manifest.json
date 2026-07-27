@@ -1,17 +1,17 @@
 {
-  "latestVersion": "25.11",
-  "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitch_v25.11.ino.bin",
-  "releaseNotes": "Reliability update: adds safety checks so each Super Switch model only ever installs its own firmware.",
+  "latestVersion": "25.12",
+  "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitch_v25.12.ino.bin",
+  "releaseNotes": "Much faster firmware updates for future releases, plus update safety checks.",
   "variants": {
     "original": {
-      "latestVersion": "25.11",
-      "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitch_v25.11.ino.bin",
-      "releaseNotes": "Reliability update: adds safety checks so each Super Switch model only ever installs its own firmware."
+      "latestVersion": "25.12",
+      "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitch_v25.12.ino.bin",
+      "releaseNotes": "Much faster firmware updates for future releases, plus update safety checks."
     },
     "DJ": {
-      "latestVersion": "26.6",
-      "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitchDJ_v26.6.ino.bin",
-      "releaseNotes": "First over-the-air update for Super Switch DJ: Apple TV Media mode, instant battery reporting, a powered-on reminder pulse when no switches are plugged in, and update safety checks."
+      "latestVersion": "26.7",
+      "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitchDJ_v26.7.ino.bin",
+      "releaseNotes": "First over-the-air update for Super Switch DJ: Apple TV Media mode, instant battery reporting, a powered-on reminder pulse, update safety checks, and much faster future updates."
     }
   }
 }
