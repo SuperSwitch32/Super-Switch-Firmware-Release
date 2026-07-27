@@ -1,17 +1,17 @@
 {
-  "latestVersion": "25.9",
-  "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitch_v25.9.ino.bin",
-  "releaseNotes": "Adds Support for Super Switch DJ (Dual Jack).",
+  "latestVersion": "25.11",
+  "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitch_v25.11.ino.bin",
+  "releaseNotes": "Reliability update: adds safety checks so each Super Switch model only ever installs its own firmware.",
   "variants": {
     "original": {
-      "latestVersion": "25.9",
-      "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitch_v25.9.ino.bin",
-      "releaseNotes": "Adds Support for Super Switch DJ (Dual Jack)."
+      "latestVersion": "25.11",
+      "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitch_v25.11.ino.bin",
+      "releaseNotes": "Reliability update: adds safety checks so each Super Switch model only ever installs its own firmware."
     },
     "DJ": {
-      "latestVersion": "0",
-      "downloadURL": "",
-      "releaseNotes": ""
+      "latestVersion": "26.6",
+      "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitchDJ_v26.6.ino.bin",
+      "releaseNotes": "First over-the-air update for Super Switch DJ: Apple TV Media mode, instant battery reporting, a powered-on reminder pulse when no switches are plugged in, and update safety checks."
     }
   }
 }
