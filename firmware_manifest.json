@@ -9,9 +9,9 @@
       "releaseNotes": "Much faster firmware updates for future releases, plus update safety checks."
     },
     "DJ": {
-      "latestVersion": "26.7",
-      "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitchDJ_v26.7.ino.bin",
-      "releaseNotes": "First over-the-air update for Super Switch DJ: Apple TV Media mode, instant battery reporting, a powered-on reminder pulse, update safety checks, and much faster future updates."
+      "latestVersion": "26.8",
+      "downloadURL": "https://github.com/SuperSwitch32/Super-Switch-Firmware-Release/raw/refs/heads/main/OTA%20Firmware%20Release/SuperSwitchDJ_v26.8.ino.bin",
+      "releaseNotes": "Accurate battery percentage: the fuel gauge is now properly configured for the DJ's battery. Also includes Apple TV Media mode, the powered-on reminder pulse, and faster updates."
     }
   }
 }
